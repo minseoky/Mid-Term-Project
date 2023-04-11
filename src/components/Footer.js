@@ -16,6 +16,7 @@ function Footer() {
             </div>
             <div className={styles.text}>
                 copyright &copy; {new Date().getFullYear()} All rights reserved by <a href="https://github.com/minseoky" className={styles.link}>Minseoky</a>
+                <p style={{textAlign:"center"}}>32194579 최민석</p>
             </div>
         </div>
     );
