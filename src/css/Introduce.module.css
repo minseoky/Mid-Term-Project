@@ -9,3 +9,9 @@
     height: 250px;
     padding: 0.5em;
 }
+.lists{
+    padding-left: 0;
+}
+.lists li{
+    list-style: none;
+}
