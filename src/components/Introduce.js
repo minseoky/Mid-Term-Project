@@ -1,10 +1,19 @@
+import img1 from "../imgs/img1.jpeg"
+import img2 from "../imgs/img2.jpeg"
+import styles from "../css/Introduce.module.css"
 function Introduce(){
     return(
         <div>
-            <h3>ÀÚ±â¼Ò°³ ÆäÀÌÁö</h3>
-            <p>Àú´Â ²÷ÀÓ¾øÀÌ µµÀüÇÏ°í ¼ºÀåÇÏ´Â ÇÐ»ý °³¹ßÀÚ ÃÖ¹Î¼®ÀÔ´Ï´Ù. </p>
-            <p>»õ·Î¿î ¾ð¾î¿Í ±â¼úÀ» ¹è¿ì´Â °ÍÀ» Áñ±â¸ç, Ç×»ó ÃÖ½Å °³¹ß µ¿Çâ°ú Æ®·»µå¸¦ ÀÍÈ÷·Á ³ë·ÂÇÕ´Ï´Ù.</p>
-            <p>³ôÀº È£±â½É°ú ¿­Á¤À» °¡Áö°í ´Ù¾çÇÑ ÇÁ·ÎÁ§Æ®¿¡ µµÀüÇÏ¸ç Áö¼ÓÀûÀÎ °³¹ßÀÚ·Î ¼ºÀåÇÏ°í ÀÖ½À´Ï´Ù.</p>
+            <h3>ìžê¸°ì†Œê°œ íŽ˜ì´ì§€</h3>
+            <p>ì €ëŠ” ëŠìž„ì—†ì´ ë„ì „í•˜ê³  ì„±ìž¥í•˜ëŠ” í•™ìƒ ê°œë°œìž ìµœë¯¼ì„ìž…ë‹ˆë‹¤. </p>
+            <p>ìƒˆë¡œìš´ ì–¸ì–´ì™€ ê¸°ìˆ ì„ ë°°ìš°ëŠ” ê²ƒì„ ì¦ê¸°ë©°, í•­ìƒ ìµœì‹  ê°œë°œ ë™í–¥ê³¼ íŠ¸ë Œë“œë¥¼ ìµížˆë ¤ ë…¸ë ¥í•©ë‹ˆë‹¤.</p>
+            <p>ë†’ì€ í˜¸ê¸°ì‹¬ê³¼ ì—´ì •ì„ ê°€ì§€ê³  ë‹¤ì–‘í•œ í”„ë¡œì íŠ¸ì— ë„ì „í•˜ë©° ì§€ì†ì ì¸ ê°œë°œìžë¡œ ì„±ìž¥í•˜ê³  ìžˆìŠµë‹ˆë‹¤.</p>
+            <div className={styles.imgContainer}>
+                <img alt="myImg1" src={img1} className={styles.img}/>
+                <img alt="myImg1" src={img2} className={styles.img}/>
+            </div>
+
+
         </div>
     )
 }
