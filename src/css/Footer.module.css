@@ -1,12 +1,44 @@
-.container{
-    height: auto;
-    background-color: rgba(177,177,177,177);
+/* Footer.module.css */
+.link{
+    text-decoration-line: none;
+    color: yellow;
+    transition: 0.3s;
 }
-.lists{
+.link:hover{
+     color: cyan;
+ }
+.container {
+    height: auto;
+    background-color: #333;
     display: flex;
-    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    overflow: auto;
-    list-style-type: none;
+}
+
+.text {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column; /* 수정: 세로 방향으로 배치 */
+    align-items: flex-start; /* 수정: 왼쪽 정렬 */
+    gap: 8px;
+    margin-top: 16px;
+    width: 95%;
+}
+
+.lists a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lists a:hover {
+    color: yellow;
 }

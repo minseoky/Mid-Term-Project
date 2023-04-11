@@ -1,4 +1,41 @@
-.container{
-    height: 30px;
-    background-color: rgba(177,177,177,177);
+/* Header.module.css */
+.container {
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+}
+
+.navitem {
+    margin-left: 16px;
+}
+
+.navlink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navlink:hover {
+    color: yellow;
 }
