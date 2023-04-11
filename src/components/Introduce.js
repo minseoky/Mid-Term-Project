@@ -59,6 +59,12 @@ function Introduce(){
                 </li>
             </ul>
 
+            <p>아래는 AWS에 대해 소개하는 간단한 영상입니다.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gv4m1fjuthU"
+                    title="YouTube video player" frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen>
+            </iframe>
 
         </div>
     )
